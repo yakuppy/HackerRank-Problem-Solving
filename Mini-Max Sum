@@ -1,0 +1,10 @@
+https://www.hackerrank.com/challenges/mini-max-sum/problem
+    arr.sort()
+    minimum_toplam=0
+    maximum_toplam=0
+    for i in arr[0:-1]:
+        minimum_toplam+=i
+    for i in arr[1:]:
+        maximum_toplam+=i
+
+    print( minimum_toplam,maximum_toplam)
