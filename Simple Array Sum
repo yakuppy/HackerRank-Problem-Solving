@@ -1,0 +1,5 @@
+https://www.hackerrank.com/challenges/simple-array-sum/problem
+    a=0
+    for i in ar:
+        a+=i
+    return(a)
